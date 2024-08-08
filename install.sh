@@ -32,13 +32,13 @@ display_message() {
     echo "█████     |██████    ██  ░░███     |░░███"
     echo "██░░██    ██░░░██  |██  ░███       ░███"
     echo "██░░░██  |██░░░██  |██  ███████  |███████"
-                                          
+    echo ""                                      
     echo "                    ██░░░██"
     echo "                    ░██░██"
     echo "                    ░░███"
     echo "                    ░██░██"
     echo "                    ██░░░██"
-
+    echo ""
     echo "░█████     ██████    ░█████    ░█████"
     echo "██░░░██   ██░░░██   ██░░░██   ██░░░██"
     echo "███████   ██████    |███████   ███████"
@@ -883,13 +883,13 @@ handle_choice() {
         12) installthememcube;;
         13) installminecraftpurpletheme;;
         14) install_stellartheme;;
-        15) echo -e "${GREEN}𝗔𝗡𝗗𝗔 𝗧𝗘𝗟𝗔𝗛 𝗞𝗘𝗟𝗨𝗔𝗥 𝗗𝗔𝗥𝗜 𝗜𝗡𝗦𝗧𝗔𝗟𝗟𝗘𝗥 𝗥𝗔𝗜𝗡𝗠𝗖${RESET}"; exit 0;;
+        15) echo -e "${GREEN}𝗔𝗡𝗗𝗔 𝗧𝗘𝗟𝗔𝗛 𝗞𝗘𝗟𝗨𝗔𝗥 𝗗𝗔𝗥𝗜 𝗜𝗡𝗦𝗧𝗔𝗟𝗟𝗘𝗥 𝗞𝗥𝗜𝗭𝗭${RESET}"; exit 0;;
         *) echo -e "${RESET}Pilihan tidak Benar Silakan coba lagi${RESET}";;
     esac
 }
 
 check_license() {
-    echo "Masukkan lisensi Anda:"
+    echo "Mohon masukkan Lisensi Anda :"
     read -r LICENSE_KEY
     # Add the logic to verify the license key here.
     # This function should return 0 if the license is valid, and 1 otherwise.
@@ -918,6 +918,6 @@ if check_license; then
         handle_choice
     done
 else
-    echo -e "${RESET}Lisensi tidak Benar Instalasi dibatalkan.${RESET}"
+    echo -e "${RESET}Lisens Andai tidak Benar, Instalasi dibatalkan!${RESET}"
     exit 1
 fi
