@@ -24,8 +24,8 @@ curl --silent \
 
 # Variables #
 SCRIPT_RELEASE="$(get_release)"
-SUPPORT_LINK="https://rainxzet.com/ilmupanel"
-WIKI_LINK="https://rainxzet.com/s1"
+SUPPORT_LINK="https://krizzio.xyx/gc"
+WIKI_LINK="https://krizzio.xyz/ch"
 GITHUB_URL="https://raw.githubusercontent.com/Ferks-FK/ControlPanel.gg-Installer/$SCRIPT_RELEASE"
 RANDOM_PASSWORD="$(openssl rand -base64 32)"
 MYSQL_PASSWORD=false

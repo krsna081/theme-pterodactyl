@@ -27,21 +27,26 @@ display_message() {
     echo ""
     echo ""
     echo -e "${RED}"
-    echo "    __ __ ____  ______________"
-    echo "   / //_// __ \/  _/__  /__  /"
-    echo "  / ,<  / /_/ // /   / /  / /"
-    echo " / /| |/ _, _// /   / /__/ /__"
-    echo "/_/ |_/_/ |_/___/  /____/____/"
-    echo "             _  __"
-    echo "            | |/ /"
-    echo "            |   /"
-    echo "           /   |"
-    echo "          /_/|_|"
-    echo "    ___    ____  ___    ___ "
-    echo "   /   |  / __ \/   |  /   |"
-    echo "  / /| | / /_/ / /| | / /| |"
-    echo " / ___ |/ _, _/ ___ |/ ___ |"
-    echo "/_/  |_/_/ |_/_/  |_/_/  |_|"
+    echo "██╗  ██╗██████╗ ██╗███████╗███████╗"
+    echo "██║ ██╔╝██╔══██╗██║╚══███╔╝╚══███╔╝"
+    echo "█████╔╝ ██████╔╝██║  ███╔╝   ███╔╝"
+    echo "██╔═██╗ ██╔══██╗██║ ███╔╝   ███╔╝"
+    echo "██║  ██╗██║  ██║██║███████╗███████╗"
+    echo "╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝"
+    echo "" 
+    echo "         ██╗  ██╗"
+    echo "         ╚██╗██╔╝"
+    echo "          ╚███╔╝"
+    echo "          ██╔██╗"
+    echo "         ██╔╝ ██╗"
+    echo "         ╚═╝  ╚═╝"
+    echo ""
+    echo "█████╗ ██████╗  █████╗  █████╗ "
+    echo "██╔══██╗██╔══██╗██╔══██╗██╔══██╗"
+    echo "███████║██████╔╝███████║███████║"
+    echo "██╔══██║██╔══██╗██╔══██║██╔══██║"
+    echo "██║  ██║██║  ██║██║  ██║██║  ██║"
+    echo "╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝"
     echo -e "${RESET}"
     echo ""
     echo ""
@@ -874,7 +879,7 @@ handle_choice() {
         5) uninstall_theme;;
         6) deletefilesptero;;
         7) install_futuristic_theme;;
-        8) curl -s https://raw.githubusercontent.com/rainmc0123/rainmc0123/main/install2.sh -o /tmp/install2.sh; source /tmp/install2.sh;;
+        8) curl -s https://raw.githubusercontent.com/krsna081/theme-pterodactyl/main/install2.sh -o /tmp/install2.sh; source /tmp/install2.sh;;
         9) install_register_pterodactyl;;
         10) install_theme_nooktheme;;
         11) installnightcoretheme;;
